@@ -1,0 +1,14 @@
+/volumes/db/*
+!.gitkeep
+
+/volumes/es01/*
+!.gitkeep
+
+/volumes/www/*
+!/volumes/www/html
+/volumes/www/html/*
+!/volumes/www/html/laravel
+/volumes/www/html/laravel/*
+!/volumes/www/html/laravel/public
+/volumes/www/html/laravel/public/*
+!.gitkeep
