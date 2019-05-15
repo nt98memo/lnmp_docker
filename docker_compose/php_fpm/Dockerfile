@@ -24,3 +24,4 @@ RUN pecl install redis-4.0.2 \
     && docker-php-ext-enable redis xdebug apcu
 
 COPY php.ini /usr/local/etc/php
+COPY xdebug.log /var/log/xdebug.log
